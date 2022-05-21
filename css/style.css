@@ -328,7 +328,61 @@ content: "";
     background-color: var(--white-cl);
     border: hidden;
 }
+.form{
+    width: 448px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-field{
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+}
+.name-label{
+    
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
 
+    letter-spacing: 0.01em;
+    
+    color: var(--text-color);
+}
+.policy-lable {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    
+    color: var(--text-color);
+}
+.text-cotract {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+.form-field input {
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.form-field label {
+    margin-bottom: 4px;
+}
+.form-area label {
+    margin-bottom: 4px;
+}
+.form-area{
+    height: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.form-area input {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
 .call-back{
 
     font-weight: 700;
@@ -338,7 +392,9 @@ content: "";
     
     color: var(--headers-color);
 }
-
+textarea{
+    resize: none;
+}
 
             /* стили плюсов компании */
 
