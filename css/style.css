@@ -329,7 +329,15 @@ content: "";
     border: hidden;
 }
 
+.call-back{
 
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    
+    color: var(--headers-color);
+}
 
 
             /* стили плюсов компании */
