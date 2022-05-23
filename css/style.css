@@ -328,6 +328,20 @@ content: "";
     background-color: var(--white-cl);
     border: hidden;
 }
+/* стили формы  в модалке */
+.call-back{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    
+    color: var(--headers-color);
+}
+.form {
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
             /* стили плюсов компании */
