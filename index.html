@@ -436,36 +436,34 @@
                     fill="#000" />
             </svg>
         </button>
-        <form class="form">
-            <p class="call-back">Оставьте свои данные, мы вам перезвоним</p>
-
-            <div class="form-field">
-                <label class="name-label" for="name">Имя</label>
+        <p class="call-back">Оставьте свои данные, мы вам перезвоним</p>
+        <form>
+            <div>
+                <label for="name">Имя</label>
                 <input type="text" name="name" id="name">
             </div>
 
-            <div class="form-field">
-                <label class="name-label" for="tel">Телефон</label>
+            <div>
+                <label for="tel">Телефон</label>
                 <input type="tel" name="tel" id="tel">
             </div>
 
-            <div class="form-field">
-                <label class="name-label" for="mail">Почта</label>
+            <div>
+                <label for="mail">Почта</label>
                 <input type="email" name="mail" id="mail">
             </div>
 
-            <div class="form-area">
-                <label class="name-label" for="comment">Комментарий</label>
+            <div>
+                <label  for="comment">Комментарий</label>
                 <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
             </div>
 
             <div>
                 <input type="checkbox" name="policy" value="policy" id="policy">
-                <label class="policy-lable" for="policy">Соглашаюсь с рассылкой и принимаю <span class="text-cotract">Условия договора</span></label>
+                <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
             </div>
-
-            <button type="submit">Отправить</button>
         </form>
+        <button type="submit">Отправить</button>
     </div>
 </div>
 <script src="./js/modals.js"></script>
