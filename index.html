@@ -438,32 +438,50 @@
         </button>
         <p class="call-back">Оставьте свои данные, мы вам перезвоним</p>
         <form class="form">
-            <div>
+            <div class="form-field">
                 <label for="name">Имя</label>
-                <input type="text" name="name" id="name">
+                <div class="input-wrapper">
+                    <input class="form-input" type="text" name="name" id="name">
+                    <svg class="form-icon man-icon" width="12" height="12">
+                        <use href="./image/symbol-defs.svg#icon-name"></use>
+                    </svg>
+                </div>
             </div>
 
-            <div>
+            <div class="form-field">
                 <label for="tel">Телефон</label>
-                <input type="tel" name="tel" id="tel">
+                <div class="input-wrapper">
+                    <input class="form-input" type="tel" name="tel" id="tel" placeholder=" ">
+                    <svg class="form-icon man-icon" width="12" height="12">
+                        <use href="./image/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                </div>
             </div>
-
-            <div>
+            <div class="form-field">
                 <label for="mail">Почта</label>
-                <input type="email" name="mail" id="mail">
+                <div class="input-wrapper">
+                    <input class="form-input" type="email" name="mail" id="mail" placeholder=" ">
+                    <svg class="form-icon man-icon" width="12" height="12">
+                        <use href="./image/symbol-defs.svg#icon-mail"></use>
+                    </svg>
+                </div>
             </div>
 
-            <div>
+            <div class="form-field">
                 <label  for="comment">Комментарий</label>
-                <textarea name="comment" id="comment" rows="10" placeholder="Введите текст"></textarea>
+                <textarea class="form-textarea" name="comment" id="comment" cols="30" rows="5" placeholder="Введите текст"></textarea>
             </div>
 
-            <div>
-                <input type="checkbox" name="policy" value="policy" id="policy">
-                <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+            <div class="policy-field">
+                <label class="policy-lable" for="policy">
+                    <input class="checkbox" type="checkbox" name="policy" id="policy" required>
+                    <span class="checkbox-icon"></span>
+                    Соглашаюсь с рассылкой и принимаю <a class="policy-link" href="">Условия договора</a>
+                </label>
             </div>
+            <button type="submit" class="send form-button">Отправить</button>
         </form>
-        <button type="submit">Отправить</button>
+        
     </div>
 </div>
 <script src="./js/modals.js"></script>
